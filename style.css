@@ -333,7 +333,7 @@ margin-top: 50px
         width: 350px;
         height: 250px;
         padding:32px ;
-        margin-top: -10px;
+        margin-top: 0px;
     }
     
     .line4{
@@ -344,7 +344,7 @@ margin-top: 50px
     .calculator h1{
     margin-bottom: 10px;
     }
-    
+
     
     .four-img{
         margin:34px 227px;
