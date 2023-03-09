@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    padding: 85px 40px 80px 40px;
+    font-family: "Poppins";
+    background-color: #F2F2F2;
+}
+
+.header-container{
+    text-align: center;
+}
+
+.header-container h1{
+    width: 296px;
+    font-weight: 279;
+    font-size: 23px;
+    line-height: 36px;
+    color: #4D4F62;
+}
+
+.header-container h2{
+    width: 294px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 36px;
+    color:#4D4F62 ;
+}
+
+.header-container p{
+    width: 311px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color:#4D4F62;
+    margin-top: 15px;
+    margin-bottom: 76px;
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.first-card{
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding:28px ;
+    overflow: hidden;
+    box-shadow:0 10px 20px rgb(131 166 210 / 50%);
+}
+
+.line{
+    width: 311px;
+    color: #44D3D2;
+    border: 3px solid;
+    margin:-29px -29px ;
+}
+
+.first-card h1{
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #4D4F62;
+margin-top: 50px
+}
+
+.first-card p{
+    width: 254px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.loop{
+    margin:34px 200px;
+}
+
+.card-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.house{
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding:28px ;
+    overflow: hidden;
+    box-shadow:0 10px 20px rgb(131 166 210 / 50%);
+}
+
+.line2{
+    width: 311px;
+    color: #EA5454;
+    border: 3px solid;
+    margin:-29px -29px ;
+}
+
+.house h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    margin-top: 50px
+}
+
+.house p{
+    width: 254px;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.builder{
+    margin:30px 191px;
+}
+
+.light{
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding:28px ;
+    overflow: hidden;
+    box-shadow:0 10px 20px rgb(131 166 210 / 50%);
+}
+
+.line3{
+    width: 311px;
+    color: #FCAE4A;
+    border: 3px solid;
+    margin:-29px -29px ;
+}
+
+.light h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    margin-top: 50px;
+}
+
+.light p{
+    width: 254px;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.karma{
+    margin:30px 191px;
+    
+}
+
+.calculator{
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding:28px ;
+    overflow: hidden;
+    box-shadow:0 10px 20px rgb(131 166 210 / 50%);
+}
+
+.calculator h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    margin-top: 50px;
+}
+
+.calculator p{
+    width: 254px;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #4D4F62;
+    opacity: 50%;
+}
+
+.four-img{
+    margin:30px 191px;
+    
+}
+.line4{
+    width: 311px;
+    color: #549EF2;
+    border: 3px solid;
+    margin:-29px -29px ;
+}
+
+/* tablet */
+@media screen and (min-width:768px){
+    .header-container h1{
+        width: 100%;
+        font-size: 36px;
+        line-height: 54px;
+       
+    }
+    
+    .header-container h2{
+        width: 100%;
+        font-size: 36px;
+        line-height: 54px;
+    }
+    
+    .header-container p{
+        width: 540px;
+        margin: 15px 73px 65px;
+    }
+    
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .calculator{
+        margin-top:-252px;
+    }
+
+
+}
+
+/* desktop  */
+
+@media screen and (min-width:1440px){
+    body{
+        padding: 80px 0px;
+    }
+
+    .header-container h1{
+        width: 100%;
+        font-size: 36px;
+        line-height: 54px;
+       
+    }
+    
+    .header-container h2{
+        width: 100%;
+        font-size: 36px;
+        line-height: 54px;
+        
+    }
+    
+    .header-container p{
+        width: 540px;
+        margin: 15px 446px 65px;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-card{
+        width: 350px;
+        height: 250px;
+        padding:32px ;
+    }
+    
+    .line{
+        width: 350px;
+        margin:-32px -32px ;
+    }
+    
+    .first-card h1{
+        margin-bottom: 10px;
+    
+    }
+    .loop{
+        margin:34px 227px;
+    }
+    
+    .house{
+        width: 350px;
+        height: 250px;
+        padding:32px ;
+    }
+    
+    .line2{
+        width: 350px;
+        margin:-32px -32px ;
+    }
+    
+    .house h1{
+        margin-bottom: 10px;
+    
+    }
+
+    .builder{
+        margin:34px 227px;
+    }
+
+    .light{
+        width: 350px;
+        height: 250px;
+        padding:32px ;
+    }
+    
+    .line3{
+        width: 350px;
+        margin:-32px -32px ;
+    }
+    
+    .light h1{
+    margin-bottom: 10px;
+    }
+    
+    .karma{
+        margin:34px 227px;
+    }
+    .calculator{
+        width: 350px;
+        height: 250px;
+        padding:32px ;
+    }
+    
+    .line4{
+        width: 350px;
+        margin:-32px -32px ;
+    }
+    
+    .calculator h1{
+    margin-bottom: 10px;
+    }
+    
+    .four-img{
+        margin:34px 227px;
+    }
+
+}
+     
