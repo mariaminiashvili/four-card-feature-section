@@ -10,6 +10,10 @@ body{
 }
 
 .header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -43,6 +47,8 @@ body{
 .card-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap:25px;
 }
 
@@ -206,6 +212,10 @@ margin-top: 50px
 
 /* tablet */
 @media screen and (min-width:768px){
+    body {
+        max-width: 100%;
+        padding: 85px 40px 80px 40px;
+    }
     .header-container h1{
         width: 100%;
         font-size: 36px;
@@ -229,11 +239,16 @@ margin-top: 50px
         flex-direction: row;
         gap: 30px;
         flex-wrap: wrap;
+        max-width: 1335px;
+        align-items: flex-start;
+
     }
 
     .calculator{
-        margin-top:-252px;
+        margin-top: -252px;
+        margin-right: 343px;
     }
+    
 
 
 }
@@ -266,10 +281,12 @@ margin-top: 50px
 
     .card-container{
         display: flex;
-        flex-direction: row;
         gap: 30px;
+        flex-direction: row;
         align-items: center;
+        flex-wrap: nowrap;
         justify-content: center;
+        max-width: 2500px;
     }
 
     .first-card{
@@ -333,7 +350,7 @@ margin-top: 50px
         width: 350px;
         height: 250px;
         padding:32px ;
-        margin-top: 0px;
+        margin: 0px;
     }
     
     .line4{
